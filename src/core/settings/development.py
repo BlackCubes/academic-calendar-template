@@ -6,7 +6,7 @@ from .base import *
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = "django-insecure-p=%1sijcyd)gwm6&bn8il^t%3y6abn71jh#ea4@pji#onsxm-+"
 
-ALLOWED_HOSTS = [""]
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
